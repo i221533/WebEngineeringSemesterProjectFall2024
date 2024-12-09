@@ -1,0 +1,74 @@
+.order-management {
+    display: flex;
+  }
+  
+  .sidebar {
+    width: 250px;
+    padding: 20px;
+  }
+  
+  .filter-group {
+    margin-bottom: 15px;
+  }
+  
+  .filter-dropdown, input {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+  }
+  
+  .reset-btn {
+    background-color: #3498db;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    width: 100%;
+  }
+  
+  .reset-btn:hover {
+    background-color: #2980b9;
+  }
+  
+  .main-content {
+    flex: 1;
+    padding: 20px;
+  }
+  
+  .order-card {
+    border: 1px solid #ddd;
+    margin-bottom: 15px;
+    padding: 15px;
+    border-radius: 8px;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .order-card.pending {
+    background-color: #f9c74f;
+  }
+  
+  .order-card.shipped {
+    background-color: #90be6d;
+  }
+  
+  .order-card.delivered {
+    background-color: #577590;
+  }
+  
+  .loading-spinner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+  }
+  
+  .orders-list {
+    margin-top: 20px;
+  }
+  
+  .title {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
