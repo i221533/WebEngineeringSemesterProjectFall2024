@@ -139,8 +139,8 @@ useEffect(()=>{
   
   const handlePlaceOrder = () => {
     if (paymentMethod === 'stripe') {
-      sendEmail();
-     // handleStripePayment();
+    //  sendEmail();
+      handleStripePayment();
      
     } else if (paymentMethod === 'cod') {
       navigate('/orders');
